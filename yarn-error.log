@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/yokoyamaryou/.nodebrew/node/v17.3.0/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/yokoyamaryou/.rbenv/shims:/Users/yokoyamaryou/.nodebrew/current/bin:/Users/yokoyamaryou/.rbenv/shims:/Users/yokoyamaryou/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/yokoyamaryou/.rbenv/shims:/Users/yokoyamaryou/.nodebrew/current/bin:/Users/yokoyamaryou/.rbenv/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "nuxt-app",
+    "private": true,
+    "scripts": {
+      "build": "nuxt build",
+      "dev": "nuxt dev",
+      "generate": "nuxt generate",
+      "preview": "nuxt preview",
+      "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+      "@nuxt/devtools": "latest",
+      "@types/node": "^18",
+      "nuxt": "^3.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
