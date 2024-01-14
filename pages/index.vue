@@ -390,9 +390,14 @@
           言われています。
         </p>
         <div class="product_point">
-          <BasicAccordion title="アコーディオン" />
-          <BasicAccordion title="アコーディオン" />
-          <BasicAccordion title="アコーディオン" />
+          <div class="product_point_text">
+            <h1>製作時のポイント</h1>
+          </div>
+          <div class="three_accordion">
+            <BasicAccordion title="アコーディオン" />
+            <BasicAccordion title="アコーディオン" />
+            <BasicAccordion title="アコーディオン" />
+          </div>
         </div>
         <div class="future_prospects">
           <div class="future_prospects_title"><h1>未来の展望</h1></div>
@@ -556,15 +561,6 @@ export default {
 
 .mission-container1 {
   padding-left: 30px;
-}
-
-.mission-container2 {
-}
-
-.mission-container3 {
-}
-
-.mission-container4 {
 }
 
 .itd-section {
