@@ -36,7 +36,7 @@ export default {
 }
 
 .accordion-button {
-  position: relative; /* 相対位置指定 */
+  position: relative;
   width: 100%;
   padding: 10px;
   text-align: left;
@@ -45,23 +45,23 @@ export default {
   border: none;
   cursor: pointer;
   font-size: 1.3em;
-  margin-bottom: 10px; /* アコーディオン同士の下部マージンを追加 */
+  margin-bottom: 10px;
 }
 
 .plus-sign {
-  position: absolute; /* 絶対位置指定 */
-  right: 10px; /* 右端からの距離を調整 */
-  top: 50%; /* 上端からの位置を中央に調整 */
-  transform: translateY(-50%); /* 中央揃えのための調整 */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   color: white;
-  font-size: 2em; /* フォントサイズを調整 */
+  font-size: 2em;
 }
 
 .accordion-content {
-  width: calc(100% - 20px); /* 親要素の幅から左右のパディングを引いた値に設定 */
+  width: calc(100% - 20px);
   padding: 10px;
   color: white;
   background-color: grey;
-  margin-top: -10px; /* アコーディオン同士の説明部分の上部マージンを追加 */
+  margin-top: -10px;
 }
 </style>
